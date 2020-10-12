@@ -142,7 +142,7 @@ class(months)
 class(sales.by.month)
 months[4]
 
-#To do
+
 ############################
 #Indexing
 sales.by.month[ c(2,3,4) ] #combine
@@ -194,6 +194,14 @@ class(a)
 class(a[1])
 class(a[[1]])
 
+#difference between single bracket and double bracket
+
+a <-as.list(c(1,2,3,4,5))
+a[1] + 1
+a[[1]] + 1
+
+# a very nice visual explanation
+# https://stackoverflow.com/questions/1169456/the-difference-between-bracket-and-double-bracket-for-accessing-the-el
 
 ############################
 #other tips
